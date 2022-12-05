@@ -52,8 +52,8 @@ export const StyleBarsMenu = styled.div`
   width: 25px;
   height: 15px;
   position: relative;
-  border-top: ${({ isOpenMenu }) => (isOpenMenu ? "3px" : 0)} solid #d8d8d8;
-  border-bottom: ${({ isOpenMenu }) => (isOpenMenu ? "3px" : 0)} solid #d8d8d8;
+  border-top: ${({ isOpenMenu }) => (!isOpenMenu ? "3px" : 0)} solid #d8d8d8;
+  border-bottom: ${({ isOpenMenu }) => (!isOpenMenu ? "3px" : 0)} solid #d8d8d8;
   cursor: pointer;
 
   &::after,
@@ -68,20 +68,20 @@ export const StyleBarsMenu = styled.div`
   }
 
   &::after {
-    -moz-transform: ${({ isOpenMenu }) => (isOpenMenu ? 0 : "rotate(45deg)")};
+    -moz-transform: ${({ isOpenMenu }) => (!isOpenMenu ? 0 : "rotate(45deg)")};
     -webkit-transform: ${({ isOpenMenu }) =>
-      isOpenMenu ? 0 : "rotate(45deg)"};
-    -o-transform: ${({ isOpenMenu }) => (isOpenMenu ? 0 : "rotate(45deg)")};
-    -ms-transform: ${({ isOpenMenu }) => (isOpenMenu ? 0 : "rotate(45deg)")};
-    transform: ${({ isOpenMenu }) => (isOpenMenu ? 0 : "rotate(45deg)")};
+      !isOpenMenu ? 0 : "rotate(45deg)"};
+    -o-transform: ${({ isOpenMenu }) => (!isOpenMenu ? 0 : "rotate(45deg)")};
+    -ms-transform: ${({ isOpenMenu }) => (!isOpenMenu ? 0 : "rotate(45deg)")};
+    transform: ${({ isOpenMenu }) => (!isOpenMenu ? 0 : "rotate(45deg)")};
   }
 
   &::before {
-    -moz-transform: ${({ isOpenMenu }) => (isOpenMenu ? 0 : "rotate(-45deg)")};
+    -moz-transform: ${({ isOpenMenu }) => (!isOpenMenu ? 0 : "rotate(-45deg)")};
     -webkit-transform: ${({ isOpenMenu }) =>
-      isOpenMenu ? 0 : "rotate(-45deg)"};
-    -o-transform: ${({ isOpenMenu }) => (isOpenMenu ? 0 : "rotate(-45deg)")};
-    -ms-transform: ${({ isOpenMenu }) => (isOpenMenu ? 0 : "rotate(-45deg)")};
-    transform: ${({ isOpenMenu }) => (isOpenMenu ? 0 : "rotate(-45deg)")};
+      !isOpenMenu ? 0 : "rotate(-45deg)"};
+    -o-transform: ${({ isOpenMenu }) => (!isOpenMenu ? 0 : "rotate(-45deg)")};
+    -ms-transform: ${({ isOpenMenu }) => (!isOpenMenu ? 0 : "rotate(-45deg)")};
+    transform: ${({ isOpenMenu }) => (!isOpenMenu ? 0 : "rotate(-45deg)")};
   }
 `;
