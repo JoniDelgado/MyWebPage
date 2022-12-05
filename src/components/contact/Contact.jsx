@@ -17,7 +17,7 @@ const Contact = () => {
           rows="10"
           placeholder="Dejame tu mensaje ;)"
         ></textarea>
-        <input type="submit" name="" id="" value="Enviar" />
+        <button type="submit">Enviar</button>
       </form>
     </StyleContactSection>
   );
