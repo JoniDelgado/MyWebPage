@@ -25,7 +25,7 @@ export const StyleNav = styled.nav`
   padding-top: 80px;
   width: 100vw;
   height: 100vh;
-  display: ${({ isOpenMenu }) => (!isOpenMenu ? "flex" : "none")};
+  display: ${({ isOpenMenu }) => (!isOpenMenu ? "none" : "flex")};
   justify-content: center;
   position: fixed;
   top: 0;
