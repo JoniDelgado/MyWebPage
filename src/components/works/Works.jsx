@@ -8,7 +8,7 @@ import { JobsCard, StyleWorksSection } from "../works/Style.works";
 
 const Works = () => {
   return (
-    <StyleWorksSection>
+    <StyleWorksSection id="works">
       <h2>Algunos de mis proyectos...</h2>
       <JobsCard>
         <div>

@@ -12,6 +12,8 @@ export const JobsCard = styled.div`
   margin: 2rem 0;
   padding: 1rem;
   display: flex;
+  border: thin solid #d8d8d8;
+  border-radius: 5px;
   flex-direction: column;
   gap: 0.5rem;
 
@@ -21,8 +23,9 @@ export const JobsCard = styled.div`
   }
 
   .image {
-    transition: all linear 0.3s;
     width: 100%;
+    border-radius: 5px;
+    transition: all linear 0.3s;
   }
 
   strong {
@@ -46,10 +49,10 @@ export const JobsCard = styled.div`
       transform: scale(1.4);
     }
   }
+
   &:hover {
-    div:first-of-type {
-      box-shadow: -25px 15px 15px pink;
-    }
+    box-shadow: rgba(255, 255, 255, 0.308) 0px 30px 60px -12px inset,
+      rgba(255, 255, 255, 0.219) 0px 18px 36px -18px inset;
 
     .image {
       filter: grayscale();

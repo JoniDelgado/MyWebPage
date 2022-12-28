@@ -8,6 +8,17 @@ export const StyleHeroSection = styled.section`
   background-color: #1b2430;
   line-height: 1.5rem;
 
+  a {
+    text-align: center;
+    width: 100%;
+  }
+
+  h1,
+  h2 {
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+  }
+
   & > div:first-of-type {
     margin: auto;
     width: 200px;

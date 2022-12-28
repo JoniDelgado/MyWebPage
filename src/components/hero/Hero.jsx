@@ -10,7 +10,7 @@ const Hero = () => {
       </div>
       <div>
         <p>Hello World, soy</p>
-        <h1>Jontan Delgado</h1>
+        <h1>Jonatan Delgado</h1>
         <h2>Junior Front-End developer.</h2>
       </div>
       <p>
@@ -23,7 +23,9 @@ const Hero = () => {
         Como apasionado de la tecnología he encontrado en el desarrollo
         front-end la posibilidad de reinventarme y seguir cumpliendo metas.
       </p>
-      <button>Check my jobs</button>
+      <a href="#works">
+        <button>Check my jobs</button>
+      </a>
     </StyleHeroSection>
   );
 };

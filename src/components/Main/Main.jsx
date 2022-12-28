@@ -12,7 +12,7 @@ const Main = () => {
     <StyleMainContainer>
       <Header />
       <Hero />
-      {/* <About /> */}
+      <About />
       <Works />
       <Technologies />
       <Contact />
