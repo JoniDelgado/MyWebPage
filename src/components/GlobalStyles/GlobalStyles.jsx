@@ -12,9 +12,17 @@ html {
 }
 
 body {
-  background-color: #3F3B6C;
+  background-color: #1B2430;
 
 }
+
+a:link,
+  a:visited,
+  a:active {
+
+    text-decoration: none;
+    color: white
+  }
 
 section {
   padding: 4rem 2rem;

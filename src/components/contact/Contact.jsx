@@ -5,9 +5,7 @@ const Contact = () => {
   return (
     <StyleContactSection>
       <h2>Contacto</h2>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut doloribu
-      </p>
+      <p>Puedes comunicarte conmigo desde el formulario de contacto:</p>
       <form>
         <input type="text" name="name" placeholder="Nombre" />
         <input type="mail" name="email" placeholder="Email" />
@@ -19,6 +17,8 @@ const Contact = () => {
         ></textarea>
         <button type="submit">Enviar</button>
       </form>
+      <p>En caso de cualquier problema:</p>
+      <p>delgadojonatan.b@gmail.com</p>
     </StyleContactSection>
   );
 };

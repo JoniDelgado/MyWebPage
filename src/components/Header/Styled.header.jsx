@@ -10,10 +10,19 @@ export const StyleHeader = styled.header`
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #3b185f;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 20px, rgba(27, 24, 54, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(31, 28, 61, 0.09) 0px -3px 5px;
+  z-index: 99;
+  background: rgb(81, 85, 126);
+  background: linear-gradient(
+    180deg,
+    rgba(81, 85, 126, 1) 48%,
+    rgba(62, 65, 96, 1) 78%,
+    rgba(61, 64, 95, 1) 79%,
+    rgba(50, 53, 74, 1) 100%
+  );
+
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 
   h2 {
     color: #d8d8d8;

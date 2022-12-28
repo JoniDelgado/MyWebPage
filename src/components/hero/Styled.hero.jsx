@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const StyleHeroSection = styled.section`
-  margin-top: 100px;
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  background-color: #3f3b6c;
+  background-color: #1b2430;
+  line-height: 1.5rem;
 
   & > div:first-of-type {
     margin: auto;

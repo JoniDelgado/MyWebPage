@@ -12,9 +12,9 @@ const Main = () => {
     <StyleMainContainer>
       <Header />
       <Hero />
-      <About />
-      <Technologies />
+      {/* <About /> */}
       <Works />
+      <Technologies />
       <Contact />
     </StyleMainContainer>
   );

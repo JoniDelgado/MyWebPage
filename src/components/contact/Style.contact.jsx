@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyleContactSection = styled.section`
   form {
-    margin-top: 1rem;
+    margin: 1rem 0;
     padding: 1rem;
     display: flex;
     flex-direction: column;
