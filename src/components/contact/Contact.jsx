@@ -5,7 +5,9 @@ const Contact = () => {
   return (
     <StyleContactSection>
       <h2>Contacto</h2>
-      <p>Puedes comunicarte conmigo desde el formulario de contacto:</p>
+      <p>
+        Puedes comunicarte conmigo desde el siguiente formulario de contacto:
+      </p>
       <form name="contact" method="POST">
         <input type="hidden" name="form-name" value="contact" />
         <input type="text" name="name" placeholder="Nombre" />
