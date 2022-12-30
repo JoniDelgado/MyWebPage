@@ -12,7 +12,7 @@ const Main = () => {
   return (
     <StyleMainContainer>
       <Header />
-      <ContactButtons />
+      {/* <ContactButt /> */}
       <Hero />
       <About />
       <Works />

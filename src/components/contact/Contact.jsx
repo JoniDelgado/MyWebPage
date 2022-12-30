@@ -17,8 +17,6 @@ const Contact = () => {
         ></textarea>
         <button type="submit">Enviar</button>
       </form>
-      <p>En caso de cualquier problema:</p>
-      <p>delgadojonatan.b@gmail.com</p>
     </StyleContactSection>
   );
 };

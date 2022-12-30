@@ -10,10 +10,9 @@ export const StyleAboutSection = styled.section`
   div:last-of-type {
     margin-top: 2rem;
     display: flex;
-    justify-content: center;
-    gap: 3rem;
+    gap: 2rem;
     img {
-      width: 40px;
+      width: 30px;
       transition: all linear 0.2s;
     }
 

@@ -1,12 +1,13 @@
 import React from "react";
 import { StyleHeroSection } from "./Styled.hero";
 import profileImage from "../../assets/Images/imagen-perfil.jpeg";
+import profileImages from "../../assets/Images/perfilsbg.png";
 
 const Hero = () => {
   return (
     <StyleHeroSection>
       <div>
-        <img src={profileImage} alt="imagen de perfil" />
+        <img src={profileImages} alt="imagen de perfil" />
       </div>
       <div>
         <div>

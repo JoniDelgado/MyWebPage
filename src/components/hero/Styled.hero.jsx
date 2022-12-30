@@ -11,7 +11,7 @@ export const StyleHeroSection = styled.section`
   a {
     margin-top: 1rem;
     padding: 0.5rem;
-    width: 40%;
+    width: 50%;
     text-align: center;
     background-color: #f0c9a3ce;
     border: none;
@@ -35,37 +35,39 @@ export const StyleHeroSection = styled.section`
     line-height: 2.5rem;
   }
 
-  & > div:first-of-type {
-    width: 180px;
-    height: 180px;
+  & > div:nth-child(1) {
+    width: 250px;
+    height: 250px;
     align-self: center;
     border-radius: 50%;
-    overflow: hidden;
   }
   img {
     width: 100%;
     height: 100%;
+
     object-fit: cover;
   }
 
-  & > div:last-of-type {
+  & > div:nth-child(2) {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
   }
 
   @media screen and (min-width: 650px) {
+    height: 90vh;
     flex-direction: row-reverse;
     justify-content: space-between;
+    align-items: center;
 
-    & > div:last-of-type {
+    & > div:nth-child(2) {
       width: 60%;
     }
 
-    & > div:first-of-type {
+    & > div:nth-child(1) {
       margin: auto;
-      width: 200px;
-      height: 200px;
+      width: 300px;
+      height: 300px;
       align-self: center;
     }
   }
