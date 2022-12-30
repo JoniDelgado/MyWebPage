@@ -6,7 +6,7 @@ import instagram from "../../assets/Images/instagram.png";
 const About = () => {
   return (
     <StyleAboutSection>
-      <h2>Un poco de quien soy</h2>
+      <h2>Un poco sobre mi...</h2>
       <div>
         <p>
           Como a muchos nos ha sucedido el 2020 no ha sido un año más. La crisis

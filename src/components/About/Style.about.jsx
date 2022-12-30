@@ -7,6 +7,10 @@ export const StyleAboutSection = styled.section`
     margin-bottom: 2rem;
   }
 
+  p {
+    margin-bottom: 1rem;
+  }
+
   div:last-of-type {
     margin-top: 2rem;
     display: flex;
