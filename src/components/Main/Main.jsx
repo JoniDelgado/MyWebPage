@@ -1,6 +1,7 @@
 import React from "react";
 import About from "../About/About";
 import Contact from "../contact/Contact";
+import ContactButtons from "../contactButtos/ContactButtons";
 import Header from "../Header/Header";
 import Hero from "../hero/Hero";
 import Technologies from "../technologies/Technologies";
@@ -11,6 +12,7 @@ const Main = () => {
   return (
     <StyleMainContainer>
       <Header />
+      <ContactButtons />
       <Hero />
       <About />
       <Works />

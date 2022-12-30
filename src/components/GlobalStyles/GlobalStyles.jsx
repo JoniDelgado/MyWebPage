@@ -26,6 +26,8 @@ a:link,
   }
 
 section {
+  margin: auto;
+  max-width: 900px;
   padding: 4rem 2rem;
 }
 

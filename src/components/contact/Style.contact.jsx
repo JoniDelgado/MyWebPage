@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyleContactSection = styled.section`
   form {
     margin: 1rem 0;
+    max-width: 700px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
